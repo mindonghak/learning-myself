@@ -1,0 +1,17 @@
+html, body {margin: 5%; padding: 0; height: 100%; background: #F9E9B4;}
+
+/* 
+#DBB79E
+#F9C6B4 */
+div{
+    margin: 1%;
+    padding : 5%;
+}
+#main{
+    width : 60%;
+    background-color: #DBC69E;
+}
+#main2{
+    width: 60%;
+    background: #F3DABC;
+}

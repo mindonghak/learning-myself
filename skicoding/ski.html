@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <div class="main">
+            <button class="select" onclick="ski.SkiShow()">전체보기</button>
+            <button class="select" onclick="ski.SkiHide()">전체숨기기</button>
+            <button class="select" onclick="ski.BusFreeShow()">무료셔틀버스</button>
+            <button id = "phoenix" class="skibutton" onclick="Phoenix.Setski()">
+                휘닉스파크
+            </button>
+            <button id="vivaldi" class="skibutton" onclick="Vivaldi.Setski()">
+                비발디파크
+            </button>
+            <button id="high1" class="skibutton" onclick="High1.Setski()">
+                하이원
+            </button>
+            <button id="alpensia" class="skibutton" onclick="Alpensia.Setski()">
+                알펜시아
+            </button>
+            <button id="yongpyong" class="skibutton" onclick="Yongpyong.Setski()">
+                용평스키장
+            </button>
+
+        </div>
+        <div id="skiinfo">
+            <button id="skititle" class="skiinfobutton">스키장 선택</button>
+            <button id="skibus" class="skiinfobutton">스키장 선택</button>
+            <button id="slopemap" class="skiinfobutton">스키장 선택</button>
+            
+        </div>
+        <script src="ski.js"></script>
+    </body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class = "header">
+            
+        </header>
+        <nav class="nav">
+
+
+            <table class="calendar" id="calendar">
+                <caption id = "calendarname"></caption>
+                <tr class="yearmonth">
+                    <td colspan="3" id="year">
+                        
+                    </td>
+                    <td class="calbuttonid">
+                        <button class="calbut" id="leftcalbut">◀</button>
+                    </td>
+                    <td colspan="2" id="month">
+                        
+                    </td>
+                    <td class="calbuttonid">
+                        <button class="calbut" id="rightcalbut">▶</button>
+                    </td>
+                </tr>
+                <tr id="day">
+                    <td>월</td>
+                    <td>화</td>
+                    <td>수</td>
+                    <td>목</td>
+                    <td>금</td>
+                    <td class="saturday">토</td>
+                    <td class="sunday">일</td>
+                </tr>
+                <tr class="date">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="saturday"></td>
+                    <td class="sunday"></td>
+                </tr>
+                <tr class="date">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="saturday"></td>
+                    <td class="sunday"></td>
+                </tr>
+                <tr class="date">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="saturday"></td>
+                    <td class="sunday"></td>
+                </tr>
+                <tr class="date">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="saturday"></td>
+                    <td class="sunday"></td>
+                </tr>
+                <tr class="date">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="saturday"></td>
+                    <td class="sunday"></td>
+                </tr>
+                <tr class="date">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="saturday"></td>
+                    <td class="sunday"></td>
+                </tr>
+            </table>
+
+
+        </nav>
+        <section class="section" id="section">
+            
+            <button class = "storybutton" id='makestory' onclick="makestory()">새로만들기</button>
+            
+        </section>
+        <aside class="aside">
+        새로만들때 주제와 url필요. 초기화 후 새로고침 해야 적용<br>
+        <button class = "storybutton" id='removestory' onclick="removestory()">삭제</button>
+        <button class = "storybutton" id='clearstory' onclick="clearstory()">초기화</button>
+        </aside>
+        <footer class="footer">
+
+        </footer>
+        <script src="jquery.js"></script>
+        <script src="calendar.js"></script>
+        <script src="story.js"></script>
+        <script src="animation.js"></script>
+
+
+
+    </body>
+</html>

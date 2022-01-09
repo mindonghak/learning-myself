@@ -1,0 +1,67 @@
+.main{
+    margin: 3%;
+    padding: 3%;
+    background-color: blanchedalmond;
+}
+
+.skibutton{
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    background-color: snow;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    color: skyblue;
+    font-weight: 1000;
+}
+
+.skibutton:hover{
+    background-color:whitesmoke;
+    cursor: pointer;
+    color: steelblue;
+}
+
+.select{
+    margin: 5px;
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    background-color:black;
+    color: white;
+    border-radius: 10px;
+}
+
+.select:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+#skiinfo{
+    margin: 3%;
+    padding: 4%;
+    background-color: skyblue;
+    border-radius: 10%;
+}
+
+.skiinfobutton{
+    margin: 30px;
+    padding: 10px;
+    width: 20%;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 40px;
+    color: skyblue;
+    font-weight: 1000;
+    border: 1px solid  black;
+    text-align: center;
+}
+.skiinfobutton:hover{
+    background-color:snow;
+    cursor: pointer;
+    color: steelblue;
+}
+#skibus, #slopemap{
+    font-size: 30px;
+}
